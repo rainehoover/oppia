@@ -212,10 +212,14 @@ ALLOWED_INTERACTION_CATEGORIES = [{
         'LogicProof',
         'NumericInput',
         'SetInput',
-    ]
+    ],
 }, {
     'name': 'Programming',
-    'interaction_ids': ['CodeRepl'],
+    'interaction_ids': [
+        'CodeRepl',
+        'PencilCodeEditor',
+        'PencilCodeRunner'
+    ],
 }, {
     'name': 'Music',
     'interaction_ids': [
